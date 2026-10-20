@@ -83,7 +83,7 @@ export default function RangeShowcase() {
             <div className="px-5 pb-5 sm:px-7 sm:pb-7 md:px-8 md:pb-8 pt-0">
               <Link
                 href={`/enquiry?category=${encodeURIComponent("Small Toys & Pocket Toys")}`}
-                className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl sm:rounded-2xl font-bold text-xs sm:text-sm text-white bg-[#635BFF] hover:bg-[#5148E5] shadow-md shadow-[#635BFF]/20 hover:shadow-lg transition-all duration-200 min-h-[48px]"
+                className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl sm:rounded-2xl font-bold text-xs sm:text-sm text-white bg-[#635BFF] hover:bg-[#5148E5] shadow-md shadow-[#635BFF]/20 hover:shadow-lg transition-all duration-200 min-h-12"
               >
                 <span>Enquire on Small Toys Catalog</span>
                 <ArrowRight className="w-4 h-4" />
@@ -148,7 +148,7 @@ export default function RangeShowcase() {
             <div className="px-5 pb-5 sm:px-7 sm:pb-7 md:px-8 md:pb-8 pt-0">
               <Link
                 href={`/enquiry?category=${encodeURIComponent("Big Toys & Outdoor Play")}`}
-                className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl sm:rounded-2xl font-bold text-xs sm:text-sm text-[#20202A] bg-[#FFB703] hover:bg-[#F59E0B] shadow-md shadow-[#FFB703]/20 hover:shadow-lg transition-all duration-200 min-h-[48px]"
+                className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl sm:rounded-2xl font-bold text-xs sm:text-sm text-[#20202A] bg-[#FFB703] hover:bg-[#F59E0B] shadow-md shadow-[#FFB703]/20 hover:shadow-lg transition-all duration-200 min-h-12"
               >
                 <span>Enquire on Big Toys Catalog</span>
                 <ArrowRight className="w-4 h-4" />

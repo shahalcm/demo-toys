@@ -41,7 +41,7 @@ export default function WholesaleCTA() {
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 w-full sm:w-auto">
                 <Link
                   href="/enquiry"
-                  className="inline-flex items-center justify-center gap-2.5 px-6 sm:px-8 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-bold text-[#20202A] bg-white hover:bg-zinc-100 shadow-lg active:scale-[0.99] transition-all duration-200 min-h-[48px]"
+                  className="inline-flex items-center justify-center gap-2.5 px-6 sm:px-8 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-bold text-[#20202A] bg-white hover:bg-zinc-100 shadow-lg active:scale-[0.99] transition-all duration-200 min-h-12"
                   id="cta-send-enquiry-btn"
                 >
                   <FileText className="w-4 h-4 text-[#635BFF] shrink-0" />
@@ -50,7 +50,7 @@ export default function WholesaleCTA() {
                 </Link>
                 <Link
                   href="/enquiry"
-                  className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-semibold text-white bg-white/10 hover:bg-white/20 border border-white/30 backdrop-blur-md transition-all duration-200 min-h-[48px]"
+                  className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-semibold text-white bg-white/10 hover:bg-white/20 border border-white/30 backdrop-blur-md transition-all duration-200 min-h-12"
                   id="cta-contact-team-btn"
                 >
                   <Mail className="w-4 h-4 shrink-0" />

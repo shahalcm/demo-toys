@@ -45,7 +45,7 @@ export default function EnquiryPage() {
           <div className="mb-4 sm:mb-6">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#635BFF] hover:text-[#5148E5] transition-colors py-2 px-3 rounded-full hover:bg-zinc-100/70 w-fit min-h-[44px]"
+              className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#635BFF] hover:text-[#5148E5] transition-colors py-2 px-3 rounded-full hover:bg-zinc-100/70 w-fit min-h-11"
             >
               <ArrowLeft className="w-4 h-4 shrink-0" />
               <span>Back to Home</span>
@@ -72,7 +72,7 @@ export default function EnquiryPage() {
             <div className="lg:col-span-7 w-full">
               <Suspense
                 fallback={
-                  <div className="p-8 sm:p-12 rounded-2xl sm:rounded-3xl bg-white border border-zinc-200 flex flex-col items-center justify-center text-zinc-400 gap-3 min-h-[400px]">
+                  <div className="p-8 sm:p-12 rounded-2xl sm:rounded-3xl bg-white border border-zinc-200 flex flex-col items-center justify-center text-zinc-400 gap-3 min-h-100">
                     <Loader2 className="w-8 h-8 animate-spin text-[#635BFF]" />
                     <span className="text-sm">Loading enquiry form...</span>
                   </div>
@@ -163,7 +163,7 @@ export default function EnquiryPage() {
                     <MapPin className="w-4 h-4 text-[#FF6B6B] shrink-0 mt-0.5" />
                     <div className="min-w-0">
                       <div className="text-[10px] sm:text-[11px] font-bold uppercase text-[#747481]">Showroom & Distribution</div>
-                      <div className="font-semibold text-[#20202A] break-words">
+                      <div className="font-semibold text-[#20202A] wrap-break-word">
                         {siteConfig.contact.address}, {siteConfig.contact.cityStateZip}
                       </div>
                     </div>

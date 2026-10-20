@@ -246,7 +246,7 @@ export default function EnquiryForm() {
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
           <Link
             href="/"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full text-sm font-bold text-white bg-[#635BFF] hover:bg-[#5148E5] shadow-md transition-colors min-h-[48px]"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full text-sm font-bold text-white bg-[#635BFF] hover:bg-[#5148E5] shadow-md transition-colors min-h-12"
           >
             <ArrowLeft className="w-4 h-4" />
             <span>Back to Homepage</span>
@@ -254,7 +254,7 @@ export default function EnquiryForm() {
           <button
             type="button"
             onClick={handleReset}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full text-sm font-semibold text-[#20202A] bg-zinc-100 hover:bg-zinc-200 border border-zinc-200 transition-colors min-h-[48px]"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full text-sm font-semibold text-[#20202A] bg-zinc-100 hover:bg-zinc-200 border border-zinc-200 transition-colors min-h-12"
           >
             <RotateCcw className="w-4 h-4" />
             <span>Submit Another Enquiry</span>
@@ -316,7 +316,7 @@ export default function EnquiryForm() {
               placeholder="e.g. Sarah Jenkins"
               className={`w-full px-3.5 sm:px-4 py-3 rounded-xl sm:rounded-2xl text-base sm:text-sm bg-zinc-50 border ${
                 errors.fullName ? "border-[#FF6B6B] bg-rose-50/30" : "border-zinc-200"
-              } focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-[46px] sm:min-h-[48px]`}
+              } focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-11.5 sm:min-h-12`}
               aria-required="true"
               aria-invalid={!!errors.fullName}
               aria-describedby={errors.fullName ? "error-fullName" : undefined}
@@ -344,7 +344,7 @@ export default function EnquiryForm() {
               value={formData.businessName}
               onChange={handleInputChange}
               placeholder="e.g. WonderLand Toys & Gifts"
-              className="w-full px-3.5 sm:px-4 py-3 rounded-xl sm:rounded-2xl text-base sm:text-sm bg-zinc-50 border border-zinc-200 focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-[46px] sm:min-h-[48px]"
+              className="w-full px-3.5 sm:px-4 py-3 rounded-xl sm:rounded-2xl text-base sm:text-sm bg-zinc-50 border border-zinc-200 focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-11.5 sm:min-h-12"
             />
           </div>
         </div>
@@ -370,7 +370,7 @@ export default function EnquiryForm() {
               placeholder="name@store.com"
               className={`w-full px-3.5 sm:px-4 py-3 rounded-xl sm:rounded-2xl text-base sm:text-sm bg-zinc-50 border ${
                 errors.email ? "border-[#FF6B6B] bg-rose-50/30" : "border-zinc-200"
-              } focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-[46px] sm:min-h-[48px]`}
+              } focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-11.5 sm:min-h-12`}
               aria-required="true"
               aria-invalid={!!errors.email}
               aria-describedby={errors.email ? "error-email" : undefined}
@@ -401,7 +401,7 @@ export default function EnquiryForm() {
               placeholder="+1 (555) 000-0000"
               className={`w-full px-3.5 sm:px-4 py-3 rounded-xl sm:rounded-2xl text-base sm:text-sm bg-zinc-50 border ${
                 errors.phone ? "border-[#FF6B6B] bg-rose-50/30" : "border-zinc-200"
-              } focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-[46px] sm:min-h-[48px]`}
+              } focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-11.5 sm:min-h-12`}
               aria-required="true"
               aria-invalid={!!errors.phone}
               aria-describedby={errors.phone ? "error-phone" : undefined}
@@ -431,7 +431,7 @@ export default function EnquiryForm() {
               onChange={handleInputChange}
               className={`w-full px-3.5 sm:px-4 py-3 rounded-xl sm:rounded-2xl text-base sm:text-sm bg-zinc-50 border ${
                 errors.enquiryType ? "border-[#FF6B6B] bg-rose-50/30" : "border-zinc-200"
-              } focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-[46px] sm:min-h-[48px]`}
+              } focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-11.5 sm:min-h-12`}
               aria-required="true"
               aria-invalid={!!errors.enquiryType}
               aria-describedby={errors.enquiryType ? "error-enquiryType" : undefined}
@@ -464,7 +464,7 @@ export default function EnquiryForm() {
               name="estimatedQuantity"
               value={formData.estimatedQuantity}
               onChange={handleInputChange}
-              className="w-full px-3.5 sm:px-4 py-3 rounded-xl sm:rounded-2xl text-base sm:text-sm bg-zinc-50 border border-zinc-200 focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-[46px] sm:min-h-[48px]"
+              className="w-full px-3.5 sm:px-4 py-3 rounded-xl sm:rounded-2xl text-base sm:text-sm bg-zinc-50 border border-zinc-200 focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-11.5 sm:min-h-12"
             >
               <option value="">Select Estimated Quantity...</option>
               <option value="Under 50 pieces">Under 50 pieces</option>
@@ -489,7 +489,7 @@ export default function EnquiryForm() {
                   key={cat.id}
                   type="button"
                   onClick={() => handleCategoryToggle(cat.title)}
-                  className={`flex items-center gap-2.5 p-3 rounded-xl sm:rounded-2xl text-left border transition-all duration-200 text-xs sm:text-sm min-h-[44px] ${
+                  className={`flex items-center gap-2.5 p-3 rounded-xl sm:rounded-2xl text-left border transition-all duration-200 text-xs sm:text-sm min-h-11 ${
                     isChecked
                       ? "bg-[#635BFF]/10 border-[#635BFF] text-[#635BFF] font-bold"
                       : "bg-zinc-50/70 border-zinc-200/80 text-[#20202A] hover:bg-zinc-100"
@@ -526,7 +526,7 @@ export default function EnquiryForm() {
             value={formData.productOfInterest}
             onChange={handleInputChange}
             placeholder="e.g. Mini Toy Cars, Large Ride-On Toys, or specific SKU"
-            className="w-full px-3.5 sm:px-4 py-3 rounded-xl sm:rounded-2xl text-base sm:text-sm bg-zinc-50 border border-zinc-200 focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-[46px] sm:min-h-[48px]"
+            className="w-full px-3.5 sm:px-4 py-3 rounded-xl sm:rounded-2xl text-base sm:text-sm bg-zinc-50 border border-zinc-200 focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 min-h-11.5 sm:min-h-12"
           />
         </div>
 
@@ -547,7 +547,7 @@ export default function EnquiryForm() {
             placeholder="Tell us what you need — product types, delivery destination, target order volume, or questions about wholesale pricing..."
             className={`w-full px-3.5 sm:px-4 py-3 rounded-xl sm:rounded-2xl text-base sm:text-sm bg-zinc-50 border ${
               errors.message ? "border-[#FF6B6B] bg-rose-50/30" : "border-zinc-200"
-            } focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 resize-y min-h-[100px]`}
+            } focus:bg-white focus:border-[#635BFF] focus:ring-2 focus:ring-[#635BFF]/20 transition-all duration-200 resize-y min-h-25`}
             aria-required="true"
             aria-invalid={!!errors.message}
             aria-describedby={errors.message ? "error-message" : undefined}
@@ -573,7 +573,7 @@ export default function EnquiryForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full py-3.5 sm:py-4 px-6 rounded-xl sm:rounded-2xl text-base font-bold text-white bg-linear-to-r from-[#635BFF] to-[#5148E5] hover:from-[#5148E5] hover:to-[#4338CA] shadow-lg shadow-[#635BFF]/25 hover:shadow-xl hover:shadow-[#635BFF]/35 active:scale-[0.99] disabled:opacity-60 disabled:cursor-not-allowed transition-all duration-200 flex items-center justify-center gap-2 min-h-[50px]"
+            className="w-full py-3.5 sm:py-4 px-6 rounded-xl sm:rounded-2xl text-base font-bold text-white bg-linear-to-r from-[#635BFF] to-[#5148E5] hover:from-[#5148E5] hover:to-[#4338CA] shadow-lg shadow-[#635BFF]/25 hover:shadow-xl hover:shadow-[#635BFF]/35 active:scale-[0.99] disabled:opacity-60 disabled:cursor-not-allowed transition-all duration-200 flex items-center justify-center gap-2 min-h-12.5"
             id="submit-enquiry-btn"
           >
             {isSubmitting ? (

@@ -92,7 +92,7 @@ export default function AboutSection() {
             {/* CTA */}
             <Link
               href="/enquiry"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3.5 rounded-full text-sm sm:text-base font-bold text-white bg-[#635BFF] hover:bg-[#5148E5] shadow-lg shadow-[#635BFF]/25 hover:shadow-xl transition-all duration-200 min-h-[48px]"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3.5 rounded-full text-sm sm:text-base font-bold text-white bg-[#635BFF] hover:bg-[#5148E5] shadow-lg shadow-[#635BFF]/25 hover:shadow-xl transition-all duration-200 min-h-12"
               id="about-get-in-touch-btn"
             >
               <span>Get in Touch</span>

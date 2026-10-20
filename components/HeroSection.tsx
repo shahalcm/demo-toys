@@ -90,7 +90,7 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 sm:gap-4 w-full sm:w-auto">
             <Link
               href="#collections"
-              className="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-bold text-white bg-linear-to-r from-[#635BFF] via-[#7067FF] to-[#5148E5] hover:from-[#5148E5] hover:to-[#4338CA] shadow-xl shadow-[#635BFF]/35 hover:shadow-2xl hover:scale-102 active:scale-[0.99] transition-all duration-200 min-h-[48px] sm:min-h-[50px]"
+              className="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-bold text-white bg-linear-to-r from-[#635BFF] via-[#7067FF] to-[#5148E5] hover:from-[#5148E5] hover:to-[#4338CA] shadow-xl shadow-[#635BFF]/35 hover:shadow-2xl hover:scale-102 active:scale-[0.99] transition-all duration-200 min-h-12 sm:min-h-12.5"
               id="hero-explore-collections-btn"
             >
               <span>Explore Our Collections</span>
@@ -98,7 +98,7 @@ export default function HeroSection() {
             </Link>
             <Link
               href="/enquiry"
-              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-semibold text-white bg-white/15 hover:bg-white/25 backdrop-blur-md border border-white/30 shadow-md hover:shadow-lg hover:scale-102 transition-all duration-200 min-h-[48px] sm:min-h-[50px]"
+              className="inline-flex items-center justify-center gap-2 px-7 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-semibold text-white bg-white/15 hover:bg-white/25 backdrop-blur-md border border-white/30 shadow-md hover:shadow-lg hover:scale-102 transition-all duration-200 min-h-12 sm:min-h-12.5"
               id="hero-request-pricing-btn"
             >
               <span>Request Wholesale Pricing</span>

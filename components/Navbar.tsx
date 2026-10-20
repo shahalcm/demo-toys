@@ -115,7 +115,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <Link
               href="/enquiry"
-              className="hidden md:inline-flex items-center gap-2 px-3.5 lg:px-5 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm font-bold text-white bg-linear-to-r from-[#635BFF] via-[#7067FF] to-[#8076FF] hover:from-[#5148E5] hover:to-[#6F65FF] shadow-md shadow-[#635BFF]/25 hover:shadow-lg hover:shadow-[#635BFF]/35 active:scale-[0.98] transition-all duration-200 group whitespace-nowrap min-h-[40px]"
+              className="hidden md:inline-flex items-center gap-2 px-3.5 lg:px-5 py-2 sm:py-2.5 rounded-full text-xs sm:text-sm font-bold text-white bg-linear-to-r from-[#635BFF] via-[#7067FF] to-[#8076FF] hover:from-[#5148E5] hover:to-[#6F65FF] shadow-md shadow-[#635BFF]/25 hover:shadow-lg hover:shadow-[#635BFF]/35 active:scale-[0.98] transition-all duration-200 group whitespace-nowrap min-h-10"
               id="nav-get-wholesale-pricing"
             >
               <span>Get Wholesale Pricing</span>
@@ -149,7 +149,7 @@ export default function Navbar() {
                   key={link.name}
                   href={link.href}
                   onClick={handleLinkClick}
-                  className="px-4 py-3 rounded-xl text-base font-semibold text-[#20202A] hover:bg-zinc-100 hover:text-[#635BFF] active:bg-[#635BFF]/10 active:text-[#635BFF] transition-colors min-h-[44px] flex items-center"
+                  className="px-4 py-3 rounded-xl text-base font-semibold text-[#20202A] hover:bg-zinc-100 hover:text-[#635BFF] active:bg-[#635BFF]/10 active:text-[#635BFF] transition-colors min-h-11 flex items-center"
                 >
                   {link.name}
                 </Link>
@@ -158,7 +158,7 @@ export default function Navbar() {
                 <Link
                   href="/enquiry"
                   onClick={handleLinkClick}
-                  className="w-full flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl text-base font-bold text-white bg-linear-to-r from-[#635BFF] to-[#5148E5] hover:from-[#5148E5] hover:to-[#4338CA] shadow-md transition-all duration-200 min-h-[48px]"
+                  className="w-full flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl text-base font-bold text-white bg-linear-to-r from-[#635BFF] to-[#5148E5] hover:from-[#5148E5] hover:to-[#4338CA] shadow-md transition-all duration-200 min-h-12"
                 >
                   <span>Get Wholesale Pricing</span>
                   <ArrowRight className="w-4 h-4" />

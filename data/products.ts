@@ -98,7 +98,7 @@ export const featuredProducts: ProductItem[] = [
     badge: "Flagship",
     description:
       "Ergonomic rechargeable battery-operated and foot-to-floor ride-on cruisers with safety belt, steering horn sounds, and smooth tires.",
-    image: "/images/prod-ride-on-toys.jpg",
+    image: "/images/ride-on-vehicles-showcase.jpg",
     highlights: ["Reinforced anti-tip safety chassis", "Sound & light steering console", "High showroom curb appeal"],
     packaging: "Individual reinforced carton / Dropship friendly",
     suggestedRetailType: "Baby & kids mega-stores, outdoor retailers & showrooms",

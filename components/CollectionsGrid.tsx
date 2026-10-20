@@ -92,7 +92,7 @@ export default function CollectionsGrid() {
                 <div className="pt-3 sm:pt-4 border-t border-zinc-100 flex items-center justify-between">
                   <Link
                     href={`/enquiry?category=${encodeURIComponent(cat.title)}`}
-                    className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#635BFF] hover:text-[#5148E5] transition-colors group/link py-1 min-h-[36px]"
+                    className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#635BFF] hover:text-[#5148E5] transition-colors group/link py-1 min-h-9"
                   >
                     <span>Enquire About {cat.title.split("&")[0].trim()}</span>
                     <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 group-hover/link:translate-x-1.5 transition-transform duration-200" />
